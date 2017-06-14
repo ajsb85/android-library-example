@@ -9,7 +9,7 @@ android:
   - build-tools-21.1.2
   - extra-android-m2repository
 before_script: 
-script: mvn clean install -Dandroid.device=test -B -U
+script: mvn clean package -Dandroid.device=test -B -U
 deploy:
   provider: bintray
   file: descriptor.json
