@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.jayway.maven.plugins.android.generation2.samples.libraryprojects</groupId>
     <artifactId>libraryprojects-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>libraryprojects-aar1</artifactId>
