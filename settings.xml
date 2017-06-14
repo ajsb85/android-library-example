@@ -5,7 +5,7 @@
     <server>
         <id>bintray-flyve-mdm-inventory</id>
         <username>flyve-mdm-bot</username>
-        <password>${env.BINTRAY_PASSWORD}</password>
+        <password>${BINTRAY_PASSWORD}</password>
     </server>
     <profiles>
         <profile>
