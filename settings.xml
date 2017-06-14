@@ -4,8 +4,8 @@
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
     <server>
         <id>bintray-flyve-mdm-inventory</id>
-        <username>flyve-mdm</username>
-        <password>${env.CI_DEPLOY_PASSWORD}</password>
+        <username>flyve-mdm-bot</username>
+        <password>91c5bdb750085c5d0b2e6da8b2944daacbd88fd6</password>
     </server>
     <profiles>
         <profile>
