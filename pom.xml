@@ -106,8 +106,9 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>bintray-repo-maven-example</id>
-      <url>https://api.bintray.com/maven/${bintray.subject}/${bintray.repo}/${bintray.package}/;publish=1</url>
+      <id>bintray-flyve-mdm-inventory</id>
+      <name>flyve-mdm-inventory</name>
+      <url>https://api.bintray.com/maven/flyve-mdm/inventory/libraryprojects-parent/;publish=1</url>
     </repository>
   </distributionManagement>
 </project>
