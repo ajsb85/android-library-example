@@ -74,8 +74,12 @@
     Note: Regular expressions defined as part of the includePattern property must be wrapped with brackets. */
     "files": [
         {
-            "includePattern": "pom.xml",
+            "includePattern": "libraryprojects-aar1/pom.xml",
             "uploadPattern": "/com/flyvemdm/inventory/1.0.2/inventory-1.0.3.pom"
+        },
+        {
+            "includePattern": "libraryprojects-aar1/target/(.jar)",
+            "uploadPattern": "/com/flyvemdm/inventory/1.0.2/$1"
         }
     ],
     "publish": true
