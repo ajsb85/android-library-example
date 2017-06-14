@@ -6,9 +6,8 @@ jdk: oraclejdk7
 language: android
 android:
   components:
-  - build-tools-21.1.2
+#  - build-tools-21.1.2
   - extra-android-m2repository
-before_script: 
 script: mvn clean package -Dandroid.device=test -B -U
 deploy:
   provider: bintray
@@ -16,3 +15,5 @@ deploy:
   user: flyve-mdm-bot
   key:
     secure: vBqYyZe4dyijWf4zaPFmX6GpT8R3Cz7EHqIxu53PAL6dQbQixKxpTh4Q5SpylfisZRdFt7eqYdz4czECZeXu//rcl4POa2CKZuawicM9f31a6QLfkNJbpK3sLN1PaMGz1p1PunGDs1bkCYwsMOSTU23XltzMeiceOj9kCEP49L3AlfmYEC+i+TX5q1/dtjDHK9+FyktZ1a8uPAWl5wxf6C2iWJidAh8BRG2j7PRveyB9DMsJNYTUbRcLgCVmxAjaCtCKjbuTXrYZpWUzjqJ4O7GOjxNMHwvvaQKqzpiMva917gXFXYA+ndc5gnTTMxnfaCVSoQ6kcvxlwSAhrXPEXCHU9sIUM5PywaizAtUa8HsHcLSHOYThkWZzWa2pxoleIK79byPuJYcpZlq83elnDUE6szYvPBGG75VBgWU8h6xg6CDKoiHVZyDfluNtgGLqpOJWOFapkMO80KMcbRTHPaZmRxC0wCc0HESBI3O8po8LszXBgfG5GtQLq6hqRir/VoaLHR58pxq1z/kc9RPJP07A1ScV2MWbtBgx7RNa2AJwqJvRW5MVtPJZ3gr7KBym7VRH5UrcA5ZPy55dbqIPOKm1sVnW/Zh8HRcbm+IYYIW02o8QYfenTroHnecywPIe2DmiZWwdEqe+WqFerfCDFwfyz/9+RA5mVhBmH8QKeRM=
+after_success:
+  - ls -al
