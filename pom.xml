@@ -104,11 +104,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
-    <repository>
-      <id>bintray-flyve-mdm-inventory</id>
-      <name>flyve-mdm-inventory</name>
-      <url>https://api.bintray.com/maven/flyve-mdm/inventory/libraryprojects-parent/;publish=1</url>
-    </repository>
-  </distributionManagement>
 </project>
