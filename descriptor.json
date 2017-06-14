@@ -99,9 +99,9 @@
     Note: Regular expressions defined as part of the includePattern property must be wrapped with brackets. */
     "files": [
         {
-            "includePattern": "/home/travis/.m2/repository/(.*)",
-            "excludePattern": "/home/travis/.m2/repository/.*.zip$",
-            "uploadPattern": "/home/travis/.m2/repository/$1"
+            "includePattern": "/home/travis/.m2/repository/com/jayway/maven/plugins/android/generation2/samples/libraryprojects/libraryprojects-aar1/(.*)",
+            "excludePattern": "/home/travis/.m2/repository/com/jayway/maven/plugins/android/generation2/samples/libraryprojects/libraryprojects-aar1/.*.zip$",
+            "uploadPattern": "/home/travis/.m2/repository/com/jayway/maven/plugins/android/generation2/samples/libraryprojects/libraryprojects-aar1/$1"
         }
     ],
     "publish": true
