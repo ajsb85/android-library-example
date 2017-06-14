@@ -78,8 +78,12 @@
             "uploadPattern": "/com/flyvemdm/inventory/1.0.2/inventory-1.0.3.pom"
         },
         {
-            "includePattern": "libraryprojects-aar1/target/(.jar)",
-            "uploadPattern": "/com/flyvemdm/inventory/1.0.2/$1"
+            "includePattern": "libraryprojects-aar1/target/libraryprojects-aar1-1.0.2.aar",
+            "uploadPattern": "/com/flyvemdm/inventory/1.0.2/libraryprojects-aar1-1.0.2.aar"
+        },
+        {
+            "includePattern": "libraryprojects-aar1/target/libraryprojects-aar1-1.0.2.jar",
+            "uploadPattern": "/com/flyvemdm/inventory/1.0.2/libraryprojects-aar1-1.0.2.jar"
         }
     ],
     "publish": true
